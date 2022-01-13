@@ -10,7 +10,7 @@ A forest is a collection of one or more domain trees inside of an Active Directo
 ### Trusts
 > Allows users to access resources in other domains
 ### Objects
-> users, groups, printers, computers, shares
+> Users, groups, printers, computers, shares
 ### Domain Services
 > DNS Server, LLMNR, IPv6
 ### Domain Schema
