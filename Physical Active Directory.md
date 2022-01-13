@@ -11,6 +11,6 @@ Windows server that has Active Directory Domain Services (AD DS) installed and h
 
 ### AD DS Data Store
 Holds the databases and processes needed to store and manage directory information such as users, groups, and services.
-- Contains the "> NTDS.dit" - a database that contains all of the information of an Active Directory domain controller as well as password hashes for domain users
+- Contains the <blockquote>NTDS.dit</blockquote> - a database that contains all of the information of an Active Directory domain controller as well as password hashes for domain users
 - Stored by default in > %SystemRoot%\NTDS
 - Accessible only by the domain controller
