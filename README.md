@@ -80,15 +80,12 @@ When you create a domain controller it comes with default groups and two default
 - RAS and IAS Servers
 
 ## Trust + Policies
-
-<blockquote>Trusts</blockquote>
-Mechanism in place for users in the network to gain access to other resources in the domain.
+Trusts is a mechanism in place for users in the network to gain access to other resources in the domain.
 Two types of trusts that determine how the domains communicate:
 + Directional - The direction of the trust flows from a trusting domain to a trusted domain
 + Transitive - The trust relationship expands beyond just two domains to include other trusted domains
 
-<blockquote>Policies</blockquote>
-Simply act as a rulebook for Active  Directory that a domain admin can modify and alter as they deem necessary to keep the network running smoothly and securely.
+Policies simply act as a rulebook for Active  Directory that a domain admin can modify and alter as they deem necessary to keep the network running smoothly and securely.
 A few policies:
 + Disable Windows Defender - Disables windows defender across all machine on the domain
 + Digitally Sign Communication (Always) - Can disable or enable SMB signing on the domain controller
