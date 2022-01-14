@@ -17,6 +17,9 @@ Domain: CONTROLLER.local
 ### Lab:
 - ```Get-NetComputer -fulldata | select operatingsystem``` - gets a list of all operating systems on the domain
 ![image](https://user-images.githubusercontent.com/35620941/149576088-bb27894e-6ec1-4ea1-896a-8f348b24c345.png)
-
-- ```Get-NetUser | select cn``` - gets a list of all users on the domain
+- ```Get-NetUser | select cn``` - gets a list of all users on the domain <br/>
 ![image](https://user-images.githubusercontent.com/35620941/149576135-9ad0eb5c-1268-46d3-b6a2-fcd4b4874583.png)
+- ```Get-NetGroup -GroupName *``` - gets a list of all groups
+- ```Get-NetUser -SPN | ?{$_.memberof -match 'Domain Admins'}```
+
+Click [here](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993) Reference for Powerview by HarmJ0y.
