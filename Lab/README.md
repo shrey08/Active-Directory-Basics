@@ -22,4 +22,4 @@ Domain: CONTROLLER.local
 - ```Get-NetGroup -GroupName *``` - gets a list of all groups
 - ```Get-NetUser -SPN | ?{$_.memberof -match 'Domain Admins'}```
 
-Click [here](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993) Reference for Powerview by HarmJ0y.
+Click [here](https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993) for Powerview reference by HarmJ0y.
