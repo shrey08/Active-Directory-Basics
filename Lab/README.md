@@ -9,9 +9,9 @@ Password:
 Domain: CONTROLLER.local
 
 ### PowerView Setup:
-1. ```Powershell cd Downloads``` - navigate to the directory PowerView is in
-2. ```Powershell powershell -ep bypass``` - load a powershell shell with execution policy bypassed
-3. ```Powershell . .\PowerView.ps1``` - import the PowerView module <br/>
+1. ```ps cd Downloads ``` - navigate to the directory PowerView is in
+2. ```ps powershell -ep bypass ``` - load a powershell shell with execution policy bypassed
+3. ```ps . .\PowerView.ps1 ``` - import the PowerView module <br/>
 ![image](https://user-images.githubusercontent.com/35620941/149575780-70ca473b-442a-47f1-858c-4cbd82e6ee4e.png)
 
 ### Lab:
